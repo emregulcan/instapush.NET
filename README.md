@@ -1,5 +1,5 @@
 # instapush.net
-Instapush API .NET wrapper
+Instapush API unofficial .NET wrapper
 > This client uses Instapush REST API v1 (https://api.instapush.im/v1/)
 
 ## Installation 
