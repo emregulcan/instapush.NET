@@ -98,20 +98,20 @@ var eventList = (RetrieveResponse<EventModel>)client.Retrieve(request);
 ## Exceptions
 Client throws known-exceptions that listed below
 
-### InvalidRequestException
+#### InvalidRequestException
 When your request is invalid because of any reason
 
-### InvalidUserTokenException
+#### InvalidUserTokenException
 When your User Token is invalid
 
-### InvalidApplicationIdOrSecretException
+#### InvalidApplicationIdOrSecretException
 When your application ID or Secret Key is invalid
 
-### DuplicateRecordException
+#### DuplicateRecordException
 When event (name) is already exists in your application
 
-### ParameterNotExistsException
+#### ParameterNotExistsException
 When your parameters (tracker) not included in your request
 
-### RecordNotExistsException
+#### RecordNotExistsException
 When your event (name) not exists in (or not related with) application
